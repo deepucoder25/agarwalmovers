@@ -114,18 +114,7 @@ foreach ($cities as $ct) {
                 <div class="mb-3">
                     <span class="section-label text-dark d-inline-block">ABOUT US</span>
                 </div>
-
-
-                <h2 class="fw-bold fs-2 mb-3">
-                    We make relocation simple, safe and stress-free for every customer
-                </h2>
-
-                <p class="text-muted mb-4">
-                    Agarwal Packers and Movers is dedicated to providing reliable and efficient
-                    relocation services for homes, offices, and vehicles. Our experienced team
-                    ensures careful packing, secure transportation, and timely delivery so that
-                    you can move without any worries.
-                </p>
+                <?= $htmlcontent ?>
 
                 <div class="row mt-4">
 
@@ -172,19 +161,7 @@ foreach ($cities as $ct) {
 
             </div>
             <div class="col-12 pt-4">
-                <h3>Reliable Packers and Movers Services in <?= $city ?></h3>
-                <p class="text-muted">We provide trusted and efficient packers and movers services in <?= $city ?>,
-                    designed to make your relocation smooth and stress-free. Whether you are shifting your home, office,
-                    or vehicle, our experienced team ensures safe handling, proper packing, and timely delivery of your
-                    belongings.</p>
-                <p class="text-muted">With a strong focus on quality and customer satisfaction, we use durable packing
-                    materials and modern techniques to protect your goods during transit. From local shifting within
-                    <?= $city ?> to long-distance relocation, our services are planned to match your specific needs
-                    without unnecessary complications.Our team understands that every move is different, which is why we
-                    offer customized solutions, clear communication, and reliable support at every step. Choosing our
-                    packers and movers in <?= $city ?> means choosing a service that values safety, efficiency, and
-                    professionalism.
-                </p>
+                <?= $htmlcontent1?>
             </div>
 
         </div>
@@ -202,22 +179,7 @@ foreach ($cities as $ct) {
 
             <div class="col-md-7">
                 <div class="city-box p-4 h-100">
-                    <h4 class="fs-2 fw-bold mb-4">
-                        Why Our Packers and Movers in <?= $city ?> Are a Reliable Choice
-                    </h4>
-
-                    <p class="mb-0">
-                        Choosing dependable packers and movers in <?= $city ?> makes a big difference when it comes to a
-                        smooth
-                        and stress-free relocation. Our team understands local conditions, traffic challenges, and
-                        building
-                        access requirements, helping us plan each move efficiently and avoid unnecessary delays.
-
-                        We focus on providing a service that is simple, transparent, and reliable. From the moment you
-                        contact us, our team guides you through the process, answers your questions, and ensures that
-                        every detail is handled properly. A well-organized move not only saves time but also reduces
-                        stress.
-                    </p>
+                    <?= $htmlcontent2?>
 
                 </div>
             </div>
@@ -237,55 +199,7 @@ foreach ($cities as $ct) {
     <div class="container">
 
         <div class="highlight-box p-4 p-md-5 shadow-sm">
-            <div class="text-center mb-3">
-                <span class="section-label text-dark">NATIONWIDE MOVING SUPPORT</span>
-            </div>
-
-            <span class="fw-bold fs-2 mb-3">
-                Trusted Packers and Movers in <?= $city?> for Safe Relocation
-            </span>
-
-            <p class="mb-3">
-                Finding reliable packers and movers in <?= $city?> is important for a smooth and stress-free move. Our team
-                understands the local environment and plans each relocation with care, ensuring your belongings are
-                handled safely from start to finish.
-            <ul class="list-unstyled text-start mx-auto city-list">
-
-                <li class="mb-2">
-                    <i class="bi bi-check-circle me-2"></i>
-                    Experienced team with strong local knowledge
-                </li>
-
-                <li class="mb-2">
-                    <i class="bi bi-check-circle me-2"></i>
-                    Safe packing using quality materials
-                </li>
-
-                <li class="mb-2">
-                    <i class="bi bi-check-circle me-2"></i>
-                    Timely pickup and on-schedule delivery
-                </li>
-
-                <li class="mb-2">
-                    <i class="bi bi-check-circle me-2"></i>
-                    Transparent pricing with no hidden charges
-                </li>
-
-                <li class="mb-0">
-                    <i class="bi bi-check-circle me-2"></i>
-                    Support available throughout the moving process
-                </li>
-
-            </ul>
-
-            </p>
-
-            <p class="mb-0">
-                We focus on clear communication, proper packing, and timely delivery so that your shifting experience
-                remains simple and well-managed. Whether it is a local move or long-distance relocation, our service is
-                designed to give you complete peace of mind.
-            </p>
-
+            <?= $htmlcontent3?>
         </div>
 
     </div>
@@ -296,31 +210,11 @@ foreach ($cities as $ct) {
 <section class="relocation-section py-4">
     <div class="container">
 
-        <div class="text-center mb-3">
+        <div class="text-center">
             <span class="section-label text-dark">PROFESSIONAL RELOCATION SERVICES</span>
         </div>
-
-        <div class="text-center mb-4">
-            <h5 class="fs-2 fw-bold mb-0">
-                Safe and Efficient Packers and Movers in <?= $city ?>
-            </h5>
-        </div>
-
         <div class="card border-0 shadow-sm relocation-box p-4">
-
-            <p class="mb-0 text-muted">
-                Our packers and movers in <?= $city ?> are committed to delivering a smooth and well-organized shifting
-                experience.
-                We understand that every move comes with its own challenges, which is why our team carefully plans each
-                step
-                to ensure your belongings are handled with care and transported safely.
-
-                From proper packing techniques to timely delivery, we focus on maintaining quality and consistency in
-                our services.
-                Whether you are moving locally or to another city, our goal is to provide a reliable solution that keeps
-                your
-                relocation simple, secure, and stress-free from start to finish.
-            </p>
+            <?= $htmlcontent4 ?>
 
         </div>
 
@@ -437,20 +331,32 @@ $this->load->view('home/testimonials.php', $data);
 <?php
 $data['faqs'] = [
     [
-        "question" => "What types of moving services do you offer?",
-        "answer" => "We offer home relocation, office shifting, car transport, bike transport, and packing/unpacking services."
+        "question" => "What are the packers and movers in $city price?",
+        "answer" => "It depends on distance, number of items, and type of shifting."
     ],
     [
-        "question" => "Are your packing materials safe?",
-        "answer" => "Yes, we use high-quality and durable packing materials to ensure complete safety of your goods."
+        "question" => "How long does shifting take?",
+        "answer" => "Most local shifting is completed within a day."
     ],
     [
-        "question" => "How do I book your service?",
-        "answer" => "You can book by calling us or filling out the contact form on our website."
+        "question" => "Are items packed safely?",
+        "answer" => "Yes, packing is done based on item type with proper materials."
     ],
     [
-        "question" => "Do you provide insurance?",
-        "answer" => "Yes, we provide transit insurance for added protection of your belongings."
+        "question" => "Where can I check packers and movers in $city reviews?",
+        "answer" => "You can check online reviews or ask for recent customer feedback."
+    ],
+    [
+        "question" => "Do you provide packing materials?",
+        "answer" => "Yes, materials are included in the service."
+    ],
+    [
+        "question" => "Is vehicle transport available?",
+        "answer" => "Yes, car and bike transport is available."
+    ],
+    [
+        "question" => "Do you offer packers and movers in $city near me?",
+        "answer" => "Yes, services cover all areas of $city and nearby locations."
     ]
 ];
 
