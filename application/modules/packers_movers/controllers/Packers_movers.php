@@ -26,8 +26,8 @@ class Packers_movers extends MX_Controller
         $state = str_replace("_", " ", ucwords($state));
         $data = array(
             "state" => $state,
-            "title" => "Packers and movers in {city}  | Trusted Services",
-            "description" => "Professional packers and movers in {State} for home, office, vehicle shifting. Safe packing, fast delivery, and affordable relocation solutions.",
+            "title" => $this->comp['company'] . " in $state",
+            "description" => $this->comp['company'] . " in $state",
             "keywords" => "$state " . $this->comp['company3'] . " in $state",
             "module" => "packers_movers",
             "view_file" => "city_list",
@@ -66,7 +66,7 @@ class Packers_movers extends MX_Controller
             "city" => $city,
             "state" => $state,
             'img' => base_url('assets') . "/images/state/google/$statelink.png",
-            "title" => "Packers and Movers in {City} | Fast & Affordable",
+            "title" => $seo['title'],
             "description" => $seo['desc'],
             "keywords" => "Hire trusted packers and movers in {City} for safe home, office, car relocation. Get quick, affordable, and damage-free shifting services.",
             "module" => "packers_movers",

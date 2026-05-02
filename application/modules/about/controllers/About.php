@@ -28,4 +28,20 @@ class About extends MX_Controller
         $data['view_file'] = "testimonials";
         echo Modules::run('template/layout2', $data);
     }
+    function privacy()
+    {
+        $data['title'] = "Privacy Policy | Secure Packers Movers Services";
+        $data['description'] = "Read our privacy policy to understand how we collect, use, and protect your personal information for safe and secure moving services.";
+        $data['module'] = "about";
+        $data['view_file'] = "privacy";
+        echo Modules::run('template/layout2', $data);
+    }
+    function condition()
+    {
+        $data['title'] = "Terms and Conditions | Packers Movers Services";
+        $data['description'] = "Review our terms and conditions for using packers and movers services, including booking, payments, responsibilities, and policies.";
+        $data['module'] = "about";
+        $data['view_file'] = "condition";
+        echo Modules::run('template/layout2', $data);
+    }
 }

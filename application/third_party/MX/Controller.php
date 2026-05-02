@@ -59,6 +59,7 @@ class MX_Controller
         $this->comp['mailhtml'] = "mailto:info@packersandmovers.com";
         $this->comp['companyname'] = 'Agarwal Packers and Movers';
         $this->comp['company3'] = 'Agarwal Packers and Movers';
+        $this->comp['company'] = 'Agarwal Packers and Movers';
         $this->comp['companydomain'] = 'groveus.com';
 
         $this->comp['facebookhtml'] = "";

@@ -47,7 +47,6 @@
                     <li><a href="<?= site_url('contacts') ?>">› Contact</a></li>
                     <li><a href="<?= site_url('gallery') ?>">› Gallery</a></li>
                     <li><a href="<?= site_url('testimonials') ?>">› Testimonials</a></li>
-                    <li><a href="<?= site_url('branches') ?>">› Reviews</a></li>
                 </ul>
             </div>
 
@@ -99,9 +98,8 @@
             </span>
 
             <div class="footer-bottom-links">
-                <a href="#">Terms</a>
-                <a href="#">Privacy</a>
-                <a href="#">Policy</a>
+                <a href="<?= site_url('terms-and-condition')?>">Terms & Condition</a>
+                <a href="<?= site_url('privacy-policy') ?>">Privacy</a>
             </div>
 
         </div>

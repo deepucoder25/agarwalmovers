@@ -51,7 +51,7 @@
                     <ul class="dropdown-menu custom-dropdown">
                         <li><a class="dropdown-item" href="<?= site_url('about') ?>">About us</a></li>
                         <li><a class="dropdown-item" href="<?= site_url('testimonials') ?>">Testimonials</a></li>
-                        <li><a class="dropdown-item" href="<?= site_url('privacy') ?>">Privacy</a></li>
+                        <li><a class="dropdown-item" href="<?= site_url('privacy-policy') ?>">Privacy</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown position-relative">
@@ -111,25 +111,22 @@
                     <i class="bi bi-house-door me-2"></i> Home
                 </a>
                 <a href="<?= site_url('about') ?>">
-                    <i class="bi bi-telephone me-2"></i> About Us
+                    <i class="bi bi-info-circle me-2"></i> About Us
                 </a>
                 <a href="<?= site_url('branches') ?>">
-                    <i class="bi bi-geo-alt me-2"></i> Our Branches
+                    <i class="bi bi-diagram-3 me-2"></i> Our Branches
                 </a>
                 <a href="<?= site_url('contacts') ?>">
-                    <i class="bi bi-geo-alt me-2"></i> Contact Us
+                     <i class="bi bi-telephone me-2"></i> Contact Us
                 </a>
                 <a href="<?= site_url('gallery') ?>">
-                    <i class="bi bi-house-door me-2"></i> Gallery
+                    <i class="bi bi-images me-2"></i> Gallery
                 </a>
                 <a href="<?= site_url('testimonials') ?>">
-                    <i class="bi bi-telephone me-2"></i> Testimonials
+                    <i class="bi bi-chat-dots me-2"></i> Testimonials
                 </a>
-                <a href="<?= site_url('branches') ?>">
-                    <i class="bi bi-geo-alt me-2"></i> Reviews
-                </a>
-                <a href="<?= site_url('privacy') ?>">
-                    <i class="bi bi-geo-alt me-2"></i> Privacy
+                <a href="<?= site_url('privacy-policy') ?>">
+                    <i class="bi bi-shield-lock me-2"></i> Privacy
                 </a>
             </div>
 
