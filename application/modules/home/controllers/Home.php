@@ -15,7 +15,7 @@ class Home extends MX_Controller
     {
         $data['title'] = "Packers and Movers - Professional Moving & Packing Services | Safe Relocation";
         $data['description'] = "Trust Packers and Movers for reliable home, office, and vehicle relocation services. Expert packing, timely delivery, and secure moving solutions across India. Get a free quote today!";
-        $data['keywords'] = "Packers and Movers, Moving Services, Relocation Services, Household Shifting, Office Relocation, Local Movers, Long-Distance Moving, Home Relocation, Professional Movers, Packing Services, Moving Company, Storage Services, Furniture Movers, Car Transportation, Bike Transportation, Movers Near Me, Best Packers and Movers, Affordable Moving Services, Moving and Packing, Residential Movers, Commercial Movers, $this->comp['company3']), Moving Solutions, Safe Relocation, Logistics Services, Moving Experts, Moving Quotes, Moving Assistance, Reliable Movers, International Moving";
+        $data['keywords'] = "Packers and Movers, Moving Services, Relocation Services, Household Shifting, Office Relocation, Local Movers, Long-Distance Moving, Home Relocation, Professional Movers, Packing Services, Moving Company, Storage Services, Furniture Movers, Car Transportation, Bike Transportation, Movers Near Me, Best Packers and Movers, Affordable Moving Services, Moving and Packing, Residential Movers, Commercial Movers,".$this->comp['company3'].", Moving Solutions, Safe Relocation, Logistics Services, Moving Experts, Moving Quotes, Moving Assistance, Reliable Movers, International Moving";
         $data['module'] = "home";
         $data['view_file'] = "home";
         echo Modules::run('template/layout1', $data);

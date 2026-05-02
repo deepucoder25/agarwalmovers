@@ -24,7 +24,7 @@
  */
 //$config['base_url'] = 'https://move4u.com/';http://127.0.0.1/move4u/
 
-$config['base_url'] = 'https://jaypackers.in/';
+$config['base_url'] = 'http://localhost/agarwalpackers&mover/';
 /*
  |--------------------------------------------------------------------------
  | Index File 
