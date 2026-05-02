@@ -30,7 +30,8 @@
             <div class="col-lg-6">
                 <div class="about-image-group position-relative">
                     <img src=<?= base_url('assets/images/about/about-packing.webp') ?>
-                        alt="Agarwal Packers and Movers team" class="img-fluid rounded-4 shadow about-img-main" loading="lazy">
+                        alt="Agarwal Packers and Movers team" class="img-fluid rounded-4 shadow about-img-main"
+                        loading="lazy">
 
                     <div class="about-exp-badge bg-danger text-white text-center rounded-4 shadow-lg p-3">
                         <span class="display-5 fw-bold d-block lh-1 mb-1">15+</span>
@@ -44,12 +45,13 @@
                     <span class="section-label">WHO WE ARE</span>
                 </div>
                 <h2 class="display-6 fw-bold mb-3">
-                    India's Most Trusted Packers and Movers
+                    About Us – Agarwal Packers and Movers
                 </h2>
                 <p class="text-muted fs-6 lh-lg mb-3">
-                    Agarwal Packers and Movers is a leading relocation company in India with over 15 years
-                    of experience. We specialize in home shifting, office relocation, vehicle transportation,
-                    warehouse storage, and international moving.
+                    <strong>Agarwal Movers and Packers</strong> helps people move homes, offices, and vehicles in a
+                    simple and practical way. Over the years we have developed a simple step-by-step process that keeps
+                    everything clear
+                    during the move.
                 </p>
 
                 <div class="row g-3 mb-4">
@@ -151,6 +153,44 @@
                     </p>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+<section class="py-4 bg-light">
+    <div class="container py-4">
+
+        <div class="content-box mb-4">
+            <h4 class="fw-bold mb-3">
+                Planning Based on Real Situations
+            </h4>
+
+            <p>
+                Each move is unique to the customer and has different requirements. For example, a small local house
+                move can easily be completed within a day while a complete household relocation will take longer time to
+                plan and perform. Office shifting is handled differently because timing matters more.
+            </p>
+
+            <p>
+                For example, many businesses prefer to schedule their office moves on the weekends to minimise
+                disruption to their workflow. Locally moving a home can reasonably be completed in one day; however,
+                more detailed planning and coordination will be needed to coordinate transport and delivery times for
+                long-distance relocations.
+            </p>
+            <p class="text-muted">In some areas of the country, narrow streets or local building ordinances can inhibit
+                the loading and unloading process.</p>
+            <span class="fs-4">What Daily Work Has Taught Us</span>
+
+            <p>
+                Most of our learning comes from regular shifting work. We handle multiple moves every week, which helps
+                us understand what works better in real situations.
+            </p>
+
+            <p>
+                Many customers prefer early morning shifting to avoid traffic. Some buildings have fixed timings for
+                loading and unloading. In busy areas, parking space also becomes a factor.
+            </p>
+            <p>These are not things you find in brochures, but they matter during actual shifting. That is why we focus
+                more on practical handling than on big promises.</p>
         </div>
     </div>
 </section>
@@ -366,9 +406,30 @@
 
         <div class="simple-box">
 
-            <span>Why Choose Our Company</span>
+            <span>How We Actually Handle Moving Work</span>
 
-            <p>Choosing the right packers and movers is very important when it comes to relocating your home or office. At our company, we focus on delivering a smooth, safe, and stress-free moving experience for every customer.We understand that every move is different, which is why we offer customized solutions based on your needs. From careful packing using high-quality materials to secure transportation and timely delivery, every step is handled with proper planning and attention.Our experienced team ensures that your belongings are treated with care and reach their destination without damage. We believe in transparency, so there are no hidden charges, and you always know what you are paying for.Customer satisfaction is our top priority. We stay connected with you throughout the process and provide support whenever needed. With our reliable service, professional team, and commitment to quality, you can trust us to make your relocation simple and hassle-free.</p>
+            <p>Each move starts with a simple conversation to understand your requirements. This includes checking how
+                many items need to be moved, what packing is required, and the distance. Once we know these details, we
+                will create an outline of how we will handle the move as opposed to providing our clients a standard
+                method of moving.</p>
+            <p>
+                On the actual day of the move, we will first proceed with the packing of the items. Items that require
+                packing, such as the kitchen items, clothing, and items that will be used on a daily basis will be
+                packed differently than the fragile items, such as glass or electronic devices. Large pieces of
+                furniture will be packed separately from all of the items that require packing. If necessary, tables and
+                beds will also be disassembled prior to being placed into boxes for moving.
+            </p>
+            <p>
+                Loading is done carefully so items stay in place during transport. At the destination, unloading is done
+                step by step, and goods are placed where the customer wants them. If needed, basic unpacking is also
+                supported. The goal is simple, finish the move in a way that does not create extra stress.
+            </p>
+            <span class="fs-4 text-dark">Why People Choose This Services</span>
+            <p>Customers usually look for a service that feels simple and reliable. They don’t want complicated
+                processes or unclear communication. Agarwal Movers and Packers enjoys a strong reputation because they
+                have a very simple, straightforward, and transparent method of completing each move. Each item to be
+                moved is packed properly, transported carefully, and remains clearly tracked from the time of packing
+                until the completion of the move.</p>
 
         </div>
 
@@ -401,3 +462,31 @@
         font-size: 15px;
     }
 </style>
+<section class="py-4 bg-light">
+    <div class="container py-4">
+
+        <div class="content-box mb-4">
+            <span class="fs-3 fw-bold mb-3">
+                Areas We Serve
+            </span>
+
+            <p>We handle relocations across different cities and local areas. Whether it is a local house shift, office
+                relocation, or intercity move, the work is managed based on distance and requirement.
+            </p>
+
+            <p class="text-muted">Our team has experience working in apartments, independent houses, and commercial
+                spaces. This helps in adjusting the process based on location conditions.
+            </p>
+            <span class="fs-4">Conclusion</span>
+
+            <p>While transfer procedures may not come naturally, they can certainly be made simpler when they follow a
+                proper process. The emphasis of <b>Agarwal Packers and Movers</b> is on getting the job done well,
+                rather than making it appear to be more complex than it needs to be.
+            </p>
+
+            <p>For more information about your move or if you wish to schedule an appointment to discuss your move's
+                particular requirements, please feel free to reach out to us and we will gladly assist you in making
+                your move a straightforward and manageable experience.</p>
+        </div>
+    </div>
+</section>
