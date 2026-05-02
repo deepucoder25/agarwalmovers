@@ -8,13 +8,14 @@
                 <span class="section-label">WHY CHOOSE US</span>
 
                 <h2 class="why-title">
-                    The Difference You Can Trust
+                    Our Work Style
                 </h2>
 
                 <p class="why-text">
-                    We provide safe, reliable and affordable relocation services.
-                    Our team ensures smooth shifting with proper planning, secure packing,
-                    and on-time delivery so you can move stress-free.
+                    We focus on completing every move with care and attention, instead of rushing through the process.
+                </p>
+                <p class="why-text">
+                    Fragile belongings and bulky furniture are safely handled with proper care because we use strong cartons, wrapping sheets, and cushioning materials based on the type of each item. Our team works in coordination at every stage, helping avoid delays and ensuring everything stays well organized.
                 </p>
 
                 <div class="cta-boxes mt-4">

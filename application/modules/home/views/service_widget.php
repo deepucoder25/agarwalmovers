@@ -4,11 +4,9 @@
         <div class="row justify-content-center mb-5">
             <div class="col-lg-8 text-center">
                 <span class="badge section-badge mb-3">Our Services</span>
-                <h2 class="section-title">Reliable Packers and Movers Services</h2>
+                <h2 class="section-title">What We Offer</h2>
                 <p class="section-subtitle">
-                    Agarwal Packers and Movers offers a complete range of packing, moving, and relocation services
-                    across India and internationally. We ensure safe, timely, and affordable shifting for every
-                    customer.
+                   We provide complete packing and moving support so you don’t have to arrange different services separately.
                 </p>
             </div>
         </div>

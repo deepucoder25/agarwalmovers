@@ -42,14 +42,11 @@
 
 
                 <h2 class="fw-bold fs-2 mb-3">
-                    We make relocation simple, safe and stress-free for every customer
+                    Agarwal Packers and Movers – Trusted Packing and Moving Services
                 </h2>
 
                 <p class="text-muted mb-4">
-                    Agarwal Packers and Movers is dedicated to providing reliable and efficient
-                    relocation services for homes, offices, and vehicles. Our experienced team
-                    ensures careful packing, secure transportation, and timely delivery so that
-                    you can move without any worries.
+                    Welcome to <strong>Agarwal Packers and Movers</strong>, a company built on years of real moving experience and customer trust. We provide <b>reliable packing and moving services</b> for homes, offices, and vehicles and many more. Over the years, we handle every item carefully and complete each move stress, as our focus has always remained the same.
                 </p>
 
                 <div class="row mt-4">
@@ -93,68 +90,40 @@
 <?php
 
 $data['services'] = [
-    [
+      [
         "icon" => "bi-house-door",
         "link" => "home-shifting",
-        "title" => "Home Shifting Services",
-        "description" => "We provide safe and secure home shifting services. Our trained team packs all household items including furniture, kitchen items, electronics, and fragile goods with multi-layer protection.",
+        "title" => "Home and Household Shifting",
+        "description" => "From furniture to kitchen items and personal belongings, everything is packed and moved with proper care.",
         "features" => ["Door-to-door service", "Safe packing material"]
     ],
     [
         "icon" => "bi-building",
         "link" => "office-shifting",
         "title" => "Office Shifting Services",
-        "description" => "Complete office shifting solution with minimal downtime. We handle office furniture, IT equipment, files, documents, and sensitive devices with professional care.",
+        "description" => "We handle office relocation with planning so that your work is not affected for long.",
         "features" => ["Weekend shifting available", "Quick setup at new location"]
-    ],
-    [
-        "icon" => "bi-truck",
-        "link" => "courier-service",
-        "title" => "Courier & Cargo Services",
-        "description" => "We offer reliable intercity and domestic shifting across India. Our fleet of GPS-enabled trucks ensures safe and timely transportation of your belongings.",
-        "features" => ["Real-time updates", "Insurance coverage"]
     ],
     [
         "icon" => "bi-globe",
         "link" => "luggage-delivery",
-        "title" => "Luggage Delivery",
-        "description" => "Moving abroad? We handle international packing, custom clearance, documentation, and door-to-door delivery to any country worldwide.",
+        "title" => "Warehouse Service",
+        "description" => "If you need storage, we also offer space for keeping goods safely for a short or long duration.",
         "features" => ["Export quality packing", "Doorstep delivery worldwide"]
     ],
     [
         "icon" => "bi-box-seam",
         "link" => "packing-unpacking-service",
         "title" => "Packing & Unpacking",
-        "description" => "Professional packing and unpacking services using high-quality materials. We use bubble wrap, corrugated sheets, thermocol, and wooden crating for maximum protection.",
+        "description" => "We use practical packing methods and also help with unpacking so you can settle in faster.",
         "features" => ["Multi-layer packing", "Fragile item care"]
     ],
     [
         "icon" => "bi-car-front",
         "link" => "car-shifting",
-        "title" => "Car Transportation Services",
-        "description" => "Safe vehicle transportation using enclosed car carriers and bike trolleys. We ensure zero-scratch delivery of your car or two-wheeler across cities.",
+        "title" => "Car and Bike Transport",
+        "description" => "Vehicles are transported using suitable carriers and handled safely during loading and delivery.",
         "features" => ["Enclosed carriers", "Full insurance cover"]
-    ],
-    [
-        "icon" => "bi-archive",
-        "link" => "loading-unloading-service",
-        "title" => "Loading and Unloading",
-        "description" => "Short-term and long-term warehousing solutions with 24x7 CCTV surveillance. Clean, pest-free, and climate-controlled storage units available.",
-        "features" => ["Flexible duration", "Easy access anytime"]
-    ],
-    [
-        "icon" => "bi-shield-check",
-        "link" => "insurance-service",
-        "title" => "Goods Insurance",
-        "description" => "We offer comprehensive transit insurance for your goods. In case of any damage during transportation, your items are fully covered under our insurance policy.",
-        "features" => ["Full value coverage", "Easy claim process"]
-    ],
-    [
-        "icon" => "bi-shop",
-        "link" => "iba-approved",
-        "title" => "IBA Approved Transporters",
-        "description" => "We handle commercial and industrial shifting including showroom shifting, factory relocation, shop shifting, and heavy machinery transportation.",
-        "features" => ["Heavy machinery moving", "Trained labor team"]
     ]
 ];
 
@@ -166,6 +135,37 @@ $this->load->view('home/service_widget.php', $data);
 <?php include 'choose_widget.php' ?>
 <?php include 'achivement.php' ?>
 <?php include 'process_widget.php' ?>
+
+<section class="py-5 bg-light">
+    <div class="container py-4">
+
+        <div class="content-box mb-4">
+            <h4 class="fw-bold mb-3">
+                How We Handle Your Move
+            </h4>
+
+            <p>
+                When you get in touch with us, we begin by understanding your specific requirements. Based on that, we clearly explain the process and provide an estimated cost.
+            </p>
+
+            <p>
+                On moving day, our team arrives as scheduled and starts packing your items using appropriate materials. After packing is complete, everything is loaded carefully and transported to the destination. After reaching, items are unloaded and placed according to your instructions. If required, we also help with basic unpacking.
+            </p>
+
+            <p>
+               Our aim is to keep the entire process simple and clear, so you don’t have to deal with confusion during the move.
+            </p>
+            <h4 class="fw-bold mb-3">
+                About Our Service Location
+            </h4>
+
+            <p class="mb-0">
+               <em>Agarwal Packers and Movers</em> provides <b>packing and moving services</b> including home shifting, office relocation, vehicle transport, and complete relocation support. Our goal is to offer safe and dependable service for every type of move.
+            </p>
+
+
+    </div>
+</section>
 <?php include 'table_widget.php' ?>
 
 <?php
@@ -303,20 +303,20 @@ $this->load->view('home/testimonials.php', $data);
 <?php
 $data['faqs'] = [
     [
-        "question" => "What types of moving services do you offer?",
-        "answer" => "We offer home relocation, office shifting, car transport, bike transport, and packing/unpacking services."
-    ],
-    [
-        "question" => "Are your packing materials safe?",
-        "answer" => "Yes, we use high-quality and durable packing materials to ensure complete safety of your goods."
+        "question" => "Is packing done safely?",
+        "answer" => "Yes, items are packed using suitable materials to reduce the risk of damage."
     ],
     [
         "question" => "How do I book your service?",
-        "answer" => "You can book by calling us or filling out the contact form on our website."
+        "answer" => "You can call or share your details to get a quote and confirm your booking."
     ],
     [
-        "question" => "Do you provide insurance?",
-        "answer" => "Yes, we provide transit insurance for added protection of your belongings."
+        "question" => "Do you provide storage services?",
+        "answer" => "Yes, warehouse services are available if you need to store goods."
+    ],
+    [
+        "question" => "Do you transport vehicles?",
+        "answer" => "Yes, we handle both car and bike transportation."
     ]
 ];
 
