@@ -48,14 +48,11 @@
 
 
                 <h2 class="fw-bold fs-2 mb-3">
-                    We make relocation simple, safe and stress-free for every customer
+                    Best IBA Approved Transporter – Agarwal Packers and Movers
                 </h2>
 
-                <p class="text-muted mb-4">
-                    Agarwal Packers and Movers is dedicated to providing reliable and efficient
-                    relocation services for homes, offices, and vehicles. Our experienced team
-                    ensures careful packing, secure transportation, and timely delivery so that
-                    you can move without any worries.
+                <p class="text-muted mb-2">
+                    An <strong>IBA approved transporter</strong> is a moving service checked and listed by the Indian Banks’ Association. This simply means the company follows a proper system for packing, transport, and billing. <strong>Agarwal Packers and Movers</strong> works within these guidelines, which helps customers who need correct documents for relocation claims.
                 </p>
 
                 <div class="row mt-4">
@@ -100,43 +97,126 @@
     <div class="container py-4">
 
         <div class="content-box mb-4">
+            <h3 class="fw-bold mb-3">
+                What IBA Approval Means in Simple Words
+            </h3>
+
+            <p>IBA approval is given after verifying how a transporter works in real conditions. It is not just about having trucks. The company must show: </p>
+            <ul>
+                <li>Consistent service quality</li>
+                <li>Clear and proper billing</li>
+                <li>Safe handling of goods</li>
+                <li>Reliable transport process</li>
+            </ul>
+            <p class="text-muted">Because of this, people often search for verified options instead of random movers. The focus is not only on shifting, but also on avoiding problems later.</p>
+            <span class="fs-4 fw-semibold">Why It Becomes Important During Relocation</span>
+            <p>Shifting itself is already a task. Packing, timing, and coordination all require attention. But when the move is linked with a job transfer, one more thing matters, whether your bill will be accepted or not.
+            </p>
+            <p class="text-dark">A common situation looks like this:</p>
+            <p>Someone chooses a low-cost transporter. The move gets completed. Later, when the bill is submitted, it does not match required standards. The claim is rejected. Now the entire expense becomes personal.</p>
+            <p>Choosing an <b>IBA-approved service</b> helps reduce this risk. The process stays aligned from the start, so there are fewer surprises at the end.</p>
+        </div>
+
+        <div class="content-box mb-4">
             <h4 class="fw-bold mb-3">
-                Why Professional Home Relocation Services Are Worth It
+                How Agarwal Packers and Movers Handle the Work
             </h4>
 
-            <p>
-                Choosing expert <b>Home Relocation</b> protects your belongings and your time.
-                That is why people actively search for <b>Best Home Relocation Services</b>
-                instead of relying on unverified options.
+            <p class="mb-0 text-dark">
+                Instead of general promises, here’s how the work usually happens:
             </p>
+            <p class="text-dark">Step 1: Basic Details</p>
+            <p class="text-muted">You share where the move starts, where it ends, and what items need to be shifted.</p>
 
-            <p>
-                Trained teams understand the details. During relocation, appliances are handled,
-                packed, and secured properly to avoid damage.
-            </p>
+            <p class="text-dark">Step 2: Cost Estimate</p>
+            <p class="text-muted">A proper estimate is prepared with all expected charges mentioned clearly.</p>
 
-            <p>
-                Home relocation requires investment, but it helps you avoid repair costs,
-                delays, and stress.
-            </p>
+            <p class="text-dark">Step 3: Packing Stage</p>
+            <p class="text-muted">Packing depends on the type of items:</p>
+            <ul>
 
-            <p class="mb-0">
-                That is why customers prefer <b>Local Home Relocation Services</b>
-                over random options.
-            </p>
+                <li>Regular goods go into sturdy boxes</li>
+                <li>Fragile items are wrapped with extra care</li>
+                <li>Furniture is covered to avoid marks or scratches</li>
+                <li>The focus stays on reducing movement inside boxes.</li>
+            </ul>
+
+            <p class="text-dark">Step 4: Loading</p>
+            <p class="text-muted">Items are arranged inside the vehicle in a balanced way. This step is important because poor placement can cause damage during travel.</p>
+
+            <p class="text-dark">Step 5: Transport and Delivery</p>
+            <p class="text-muted">Goods are transported to the destination and unloaded carefully. Placement is done as per your instructions.</p>
+
+            <p class="text-dark">Step 6: Documents</p>
+            <p class="text-muted">After the move, you receive proper paperwork. These documents are useful if you need to submit a claim.</p>
         </div>
 
         <div class="content-box">
-            <h4 class="fw-bold mb-3">
-                Step-by-Step Home Relocation Process for Smooth Shifting
-            </h4>
-
-            <p class="mb-0">
-                A structured relocation process keeps everything simple and organized,
-                ensuring a smooth and stress-free move.
+            <h5 class="fw-bold mb-3">
+                A Real-Life Type Situation
+            </h5>
+            <p>Think about someone shifting because of a bank transfer. They complete the move quickly by choosing a local option. Everything seems fine until the claim stage. The bill does not meet required format rules.
             </p>
+            <p>At that point, nothing can be corrected. This is why many people prefer verified transporters from the beginning. It saves both money and effort later.</p>
+
+            <span class="fs-5 fw-semibold">Who Usually Needs This Service</span>
+            <p>This type of transporter is useful for:</p>
+            <ul>
+                <li>Bank employees</li>
+                <li>Corporate staff with relocation benefits</li>
+                <li>Government transfers</li>
+                <li>Anyone who needs proper billing proof</li>
+            </ul>
+            <p class="text-muted">Even without reimbursement, structured service often leads to a smoother move.</p>
+            <span class="fs-5 fw-semibold">Small Things People Overlook</span>
+            <p>Many problems happen because of simple misses:</p>
+            <ul>
+                <li>Not checking approval status</li>
+                <li>Ignoring bill format</li>
+                <li>Choosing only based on price</li>
+                <li>Not confirming documents in advance</li>
+            </ul>
+            <p class="text-muted">Paying attention to these points can make a big difference.</p>
         </div>
-
-
     </div>
 </section>
+
+
+<?php
+$data['faqs'] = [
+    [
+        "question" => "What is an IBA approved transporter?",
+        "answer" => "It is a transporter verified by the <b>Indian Banks’ Association</b> for providing structured relocation services."
+    ],
+    [
+        "question" => "Is it required for every move?",
+        "answer" => "No, but it is important if you plan to claim reimbursement."
+    ],
+    [
+        "question" => "Can claims be rejected without it?",
+        "answer" => "Yes, in many cases bills are not accepted if the transporter is not approved."
+    ],
+    [
+        "question" => "Are charges higher?",
+        "answer" => "Not necessarily. Pricing is structured and clearly defined."
+    ],
+    [
+        "question" => "What documents are provided?",
+        "answer" => "You usually receive an invoice and transport-related papers."
+    ],
+    [
+        "question" => "How can I check approval?",
+        "answer" => "You can refer to official listings or choose a known service provider."
+    ],
+    [
+        "question" => "Is insurance available?",
+        "answer" => "Some movers offer insurance as an additional option."
+    ],
+    [
+        "question" => "When should I plan the move?",
+        "answer" => "Booking a few days in advance helps in better coordination."
+    ]
+];
+
+$this->load->view('home/fags_widget.php', $data);
+?>

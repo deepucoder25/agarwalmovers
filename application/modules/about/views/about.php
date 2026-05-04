@@ -88,11 +88,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="d-flex flex-wrap gap-3">
-                    <a href="#" class="btn btn-danger rounded-pill px-4 py-2 fw-semibold">Contact Us</a>
-                    <a href="#" class="btn btn-outline-danger rounded-pill px-4 py-2 fw-semibold">Our Services</a>
-                </div>
             </div>
         </div>
     </div>

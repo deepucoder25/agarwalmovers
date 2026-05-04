@@ -48,14 +48,12 @@
 
 
                 <h2 class="fw-bold fs-2 mb-3">
-                    We make relocation simple, safe and stress-free for every customer
+                    Loading and Unloading – Agarwal Packers and Movers
                 </h2>
 
-                <p class="text-muted mb-4">
-                    Agarwal Packers and Movers is dedicated to providing reliable and efficient
-                    relocation services for homes, offices, and vehicles. Our experienced team
-                    ensures careful packing, secure transportation, and timely delivery so that
-                    you can move without any worries.
+                <p class="text-muted mb-2">
+                    Expect loading and unloading to cost roughly ₹1,500 to ₹6,000. The figure changes with item count,
+                    floor height, and the gap between your door and the parked truck.
                 </p>
 
                 <div class="row mt-4">
@@ -100,41 +98,68 @@
     <div class="container py-4">
 
         <div class="content-box mb-4">
-            <h4 class="fw-bold mb-3">
-                Why Professional Home Relocation Services Are Worth It
-            </h4>
+            <h3 class="fw-bold mb-3">
+                What This Service Covers
+            </h3>
 
             <p>
-                Choosing expert <b>Home Relocation</b> protects your belongings and your time.
-                That is why people actively search for <b>Best Home Relocation Services</b>
-                instead of relying on unverified options.
+                This stage is the hands-on part of a move. Items leave your rooms, get placed in the vehicle, travel,
+                and are then set down in the new space. If this step is rushed or careless, damage can occur even when
+                packing is done well.
             </p>
 
-            <p>
-                Trained teams understand the details. During relocation, appliances are handled,
-                packed, and secured properly to avoid damage.
+            <p><strong>Agarwal Packers and Movers</strong> keeps the pace steady. The goal is control, not speed.</p>
+            <span class="fs-4 fw-semibold">What Changes the Price</span>
+            <p>Costs vary because every move is different. Main factors include:</p>
+            <ul>
+                <li>Total items to be moved</li>
+                <li>Size and weight of furniture</li>
+                <li>Pickup and drop floor</li>
+                <li>Lift availability</li>
+                <li>Distance from parking</li>
+                <li>Team size required</li>
+            </ul>
+            <p class="text-muted">More effort, like carrying from higher floors without a lift, can increase the charge.
             </p>
-
-            <p>
-                Home relocation requires investment, but it helps you avoid repair costs,
-                delays, and stress.
-            </p>
-
-            <p class="mb-0">
-                That is why customers prefer <b>Local Home Relocation Services</b>
-                over random options.
-            </p>
+            <span class="fs-4 fw-semibold">How Items Go Into the Truck</span>
+            <p>Work begins with a quick look at all packed goods. Breakables are set aside so they get special
+                attention. Bulky pieces, beds, wardrobes, appliances are prepared first.</p>
+            <p>Placement follows a simple order. Heavier pieces form the base. Mid-size cartons fill the gaps. Lighter
+                and delicate items stay on top where pressure is minimal.</p>
+            <p>In buildings without lifts or with tight stairs, items are carried by hand with firm grip and balanced
+                movement. Extra care is taken in narrow passages.</p>
         </div>
 
         <div class="content-box">
             <h4 class="fw-bold mb-3">
-                Step-by-Step Home Relocation Process for Smooth Shifting
+                What Happens at the Destination
             </h4>
 
             <p class="mb-0">
-                A structured relocation process keeps everything simple and organized,
-                ensuring a smooth and stress-free move.
+                Unloading mirrors the same care. The truck is opened and items come out one at a time. Large pieces are
+                handled first so space can be managed well. Cartons follow without piling weight on each other.
             </p>
+            <p>
+                Instead of dropping everything in one spot, items are set in the rooms you choose. This saves time when
+                you start arranging your home.
+            </p>
+
+            <span class="fs-5 fw-semibold">Situations That Often Come Up</span>
+            <p>On-ground conditions are not always ideal. Common issues include:</p>
+            <ul>
+                <li>Sudden rain during the move</li>
+                <li>Wet or slippery stairs</li>
+                <li>Parking at a distance</li>
+                <li>No lift access</li>
+                <li>Traffic slowing down timing</li>
+            </ul>
+            <p class="text-muted">Work continues with caution, items are covered when needed and movement is adjusted to
+                the situation.</p>
+            <span class="fs-5 fw-semibold">Why Skilled Handling Helps</span>
+            <p class="text-muted">Untrained help may finish the job, but the risk of damage stays higher. Proper
+                technique makes a difference.</p>
+            <p>With experienced hands, lifting angles are correct, weight is balanced, and items are placed with care.
+                This reduces scratches and breakage.</p>
         </div>
 
 

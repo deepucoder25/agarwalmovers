@@ -66,8 +66,6 @@
                                 Services</a></li>
                         <li><a class="dropdown-item" href="<?= site_url('car-shifting') ?>">Car Transportation
                                 Services</a></li>
-                        <li><a class="dropdown-item" href="<?= site_url('packing-unpacking-service') ?>">Packing and
-                                Unpacking Services</a></li>
                         <li><a class="dropdown-item" href="<?= site_url('courier-service') ?>">Courier & Cargo
                                 Services</a></li>
                         <li><a class="dropdown-item" href="<?= site_url('luggage-delivery') ?>">Luggage Delivery</a>
@@ -132,20 +130,33 @@
 
             <div class="col-6 text-dark">
                 <span class="fs-2 fw-bold text-dark">All Services</span>
-                <a href="<?= site_url('bike-service') ?>">
-                    <i class="bi bi-bicycle me-2"></i> Bike Service
+                <a href="<?= site_url('home-shifting') ?>">
+                   <i class="bi bi-house me-2"></i> Home Shifting Services
                 </a>
                 <a href="<?= site_url('car-shifting') ?>">
                     <i class="bi bi-car-front me-2"></i> Car Shifting
                 </a>
-                <a href="<?= site_url('home-relocation') ?>">
-                    <i class="bi bi-house me-2"></i> Home Relocation
+                <a href="<?= site_url('office-shifting') ?>">
+                    <i class="bi bi-building me-2"></i> Office Shifting Services
+                </a>
+                <a href="<?= site_url('courier-service') ?>">
+                   <i class="bi bi-box-seam me-2"></i> Courier & Cargo Services
+                </a>
+                <a href="<?= site_url('luggage-delivery') ?>">
+                    <i class="bi bi-bag-check me-2"></i> Luggage Delivery
+                </a>
+                <a href="<?= site_url('insurance-service') ?>">
+                    <i class="bi bi-shield-check me-2"></i> Goods Insurance
+                </a>
+                
+                <a href="<?= site_url('iba-approved') ?>">
+                    <i class="bi bi-patch-check me-2"></i> IBA Approved Transporters
+                </a>
+                <a href="<?= site_url('loading-unloading-service') ?>">
+                    <i class="bi bi-truck me-2"></i> Loading and Unloading
                 </a>
                 <a href="<?= site_url('packing-unpacking-service') ?>">
-                    <i class="bi bi-box-seam me-2"></i> Packing and Unpacking Services
-                </a>
-                <a href="<?= site_url('warehousing-service') ?>">
-                    <i class="bi bi-building me-2"></i> Warehouse Service
+                    <i class="bi bi-box me-2"></i> Packing and Unpacking Services
                 </a>
             </div>
 
