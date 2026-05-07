@@ -90,7 +90,7 @@
 <?php
 
 $data['services'] = [
-      [
+    [
         "icon" => "bi-house-door",
         "link" => "home-shifting",
         "title" => "Home and Household Shifting",
@@ -105,11 +105,11 @@ $data['services'] = [
         "features" => ["Weekend shifting available", "Quick setup at new location"]
     ],
     [
-        "icon" => "bi-globe",
-        "link" => "luggage-delivery",
-        "title" => "Warehouse Service",
-        "description" => "If you need storage, we also offer space for keeping goods safely for a short or long duration.",
-        "features" => ["Export quality packing", "Doorstep delivery worldwide"]
+        "icon" => "bi-truck",
+        "link" => "loading-unloading-service",
+        "title" => "Loading and Unloading",
+        "description" => "Our trained team lifts, loads, and unloads your goods carefully to avoid damage during the move.",
+        "features" => ["Safe lifting support", "Careful item handling"]
     ],
     [
         "icon" => "bi-box-seam",
@@ -124,6 +124,13 @@ $data['services'] = [
         "title" => "Car and Bike Transport",
         "description" => "Vehicles are transported using suitable carriers and handled safely during loading and delivery.",
         "features" => ["Enclosed carriers", "Full insurance cover"]
+    ],
+    [
+        "icon" => "bi-bag-check",
+        "link" => "luggage-delivery",
+        "title" => "Luggage Delivery",
+        "description" => "We deliver bags, boxes, and personal luggage safely across cities with timely pickup and drop support.",
+        "features" => ["Door-to-door delivery", "Secure luggage handling"]
     ]
 ];
 

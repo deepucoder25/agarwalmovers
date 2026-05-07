@@ -35,8 +35,8 @@
 <nav class="navbar navbar-expand-lg main-navbar">
     <div class="container">
 
-        <a class="navbar-brand fw-bold text-danger" href="#">
-            <?= $companyname ?>
+        <a class="navbar-brand" href="<?= site_url() ?>" aria-label="Agarwal Packers and Movers home">
+            <img src="<?= base_url('assets/images/logo/logo.png') ?>" alt="Agarwal Packers and Movers logo" class="site-logo">
         </a>
 
         <button class="navbar-toggler border-0 ms-2" type="button" id="menuToggle" aria-label="Menu">
@@ -256,10 +256,44 @@
             display: none;
         }
     }
+    .main-navbar {
+        background: var(--white);
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+    }
+
     .main-navbar .container {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 12px;
+    }
+
+    .main-navbar .navbar-brand {
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        padding: 0;
+        flex-shrink: 1;
+        min-width: 0;
+    }
+
+    .site-logo {
+        display: block;
+        width: clamp(180px, 22vw, 250px);
+        height: auto;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .navbar-toggler {
+        flex-shrink: 0;
+        margin-left: auto;
+        padding: 4px 6px;
     }
 
     .navbar-collapse {
@@ -273,21 +307,7 @@
     }
 
     .get-quote-btn {
-        margin-left: auto;
-    }
-
-
-    .get-quote-btn {
         margin-left: 30px;
-    }
-
-    .main-navbar {
-        background: var(--white);
-        position: sticky;
-        justify-content: space-between;
-        top: 0;
-        z-index: 999;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
 
     .navbar .nav-link {
@@ -337,6 +357,14 @@
             display: none;
         }
 
+        .main-navbar {
+            padding: 8px 0;
+        }
+
+        .site-logo {
+            width: 190px;
+        }
+
         .navbar-collapse {
             background: white;
             padding: 15px;
@@ -347,6 +375,20 @@
         .navbar-nav .nav-link {
             padding: 10px 0;
             border-bottom: 1px solid #eee;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .main-navbar .container {
+            gap: 8px;
+        }
+
+        .site-logo {
+            width: 165px;
+        }
+
+        .navbar-toggler .bi {
+            font-size: 1.8rem !important;
         }
     }
 
