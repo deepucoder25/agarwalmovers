@@ -46,7 +46,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 
             <ul class="navbar-nav align-items-lg-center">
-                <li class="nav-item"><a class="nav-link" href="<?= site_url('home') ?>">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?= site_url() ?>">Home</a></li>
                 <li class="nav-item dropdown position-relative"><a class="nav-link dropdown-toggle" href="#">About</a>
                     <ul class="dropdown-menu custom-dropdown">
                         <li><a class="dropdown-item" href="<?= site_url('about') ?>">About us</a></li>
@@ -105,7 +105,7 @@
 
             <div class="col-6 text-dark">
                 <span class="fs-2 fw-bold text-dark">Company</span>
-                <a href="<?= site_url('home') ?>">
+                <a href="<?= site_url() ?>">
                     <i class="bi bi-house-door me-2"></i> Home
                 </a>
                 <a href="<?= site_url('about') ?>">
