@@ -36,7 +36,7 @@
             <div class="col-md-6">
                 <div class="about-img">
                     <img src="<?= base_url('assets/images/service/packing1.webp'); ?>"
-                        alt="Agarwal Packers and Movers team providing relocation services"
+                        alt="<?= $companyname ?> team providing relocation services"
                         class="img-fluid rounded-4 w-100">
                 </div>
             </div>
@@ -48,11 +48,11 @@
 
 
                 <h2 class="fw-bold fs-2 mb-3">
-                    Top Packing and Unpacking Services – Agarwal Packers and Movers
+                    Top Packing and Unpacking Services – <?= $companyname ?>
                 </h2>
 
                 <p class="text-muted mb-2">
-                    Packing doesn’t usually start as a big task. It begins with one shelf, then another, and slowly the whole house is involved. By the time everything is out, it becomes clear how much effort it actually takes to sort, wrap, and move each item. After reaching the new place, the same boxes need attention again. <strong>Agarwal Packers and Movers</strong> handles packing and unpacking services in a way that keeps both stages steady and manageable.
+                    Packing doesn’t usually start as a big task. It begins with one shelf, then another, and slowly the whole house is involved. By the time everything is out, it becomes clear how much effort it actually takes to sort, wrap, and move each item. After reaching the new place, the same boxes need attention again. <strong><?= $companyname ?></strong> handles packing and unpacking services in a way that keeps both stages steady and manageable.
                 </p>
                 <p>People who look for <b>packing and unpacking services near me</b> are often trying to avoid this back-and-forth stress. The aim is simple, pack in a way that doesn’t create confusion later. That is the approach followed here.</p>
 
@@ -112,7 +112,7 @@
             </p>
             <span class="fs-4 fw-semibold">Step-by-Step Flow of Work</span>
             <p>Packing normally moves in parts. One section is completed before moving to the next. This helps in keeping track of what is done and what is left.</p>
-            <p>Small items are picked up first because they are easy to miss. Larger items follow after that. <em>Agarwal Packers and Movers</em> keep this natural order so things don’t get mixed.</p>
+            <p>Small items are picked up first because they are easy to miss. Larger items follow after that. <em><?= $companyname ?></em> keeps this natural order so things don’t get mixed.</p>
             <p>The work is not rushed. A steady pace avoids mistakes and keeps everything clear.</p>
         </div>
 
@@ -129,12 +129,14 @@
             </p>
             
             <span class="fs-5 fw-semibold">Different Situations, Different Handling</span>
-            <p>Every home has its own setup. Some have fewer items, others have many small things spread across rooms. Sometimes time is limited, sometimes there is enough time to go slow. Agarwal Packers and Movers adjusts the work based on these real situations. There is no fixed method applied to every move.</p>
-            <span class="fs-5 fw-semibold">Agarwal Packers and Movers for Practical Packing</span>
-            <p>If you are searching for <em>packing and unpacking services near me, Agarwal Packers and Movers</em> offers a simple and workable option.</p>
+            <p>Every home has its own setup. Some have fewer items, others have many small things spread across rooms. Sometimes time is limited, sometimes there is enough time to go slow. <?= $companyname ?> adjusts the work based on these real situations. There is no fixed method applied to every move.</p>
+            <span class="fs-5 fw-semibold"><?= $companyname ?> for Practical Packing</span>
+            <p>If you are searching for <em>packing and unpacking services near me, <?= $companyname ?></em> offers a simple and workable option.</p>
             <p>The idea is to keep things clear, from the moment packing starts to the point everything is placed again. It’s not about doing the job quickly, but about doing it in a way that makes settling in easier.</p>
         </div>
 
 
     </div>
 </section>
+
+

@@ -30,7 +30,7 @@
             <div class="col-lg-6">
                 <div class="about-image-group position-relative">
                     <img src=<?= base_url('assets/images/about/about-packing.webp') ?>
-                        alt="Agarwal Packers and Movers team" class="img-fluid rounded-4 shadow about-img-main"
+                        alt="<?= $companyname ?> team" class="img-fluid rounded-4 shadow about-img-main"
                         loading="lazy">
 
                     <div class="about-exp-badge bg-danger text-white text-center rounded-4 shadow-lg p-3">
@@ -45,10 +45,10 @@
                     <span class="section-label">WHO WE ARE</span>
                 </div>
                 <h2 class="display-6 fw-bold mb-3">
-                    About Us – Agarwal Packers and Movers
+                    About Us – <?= $companyname ?>
                 </h2>
                 <p class="text-muted fs-6 lh-lg mb-3">
-                    <strong>Agarwal Movers and Packers</strong> helps people move homes, offices, and vehicles in a
+                    <strong><?= $companyname ?></strong> helps people move homes, offices, and vehicles in a
                     simple and practical way. Over the years we have developed a simple step-by-step process that keeps
                     everything clear
                     during the move.
@@ -421,7 +421,7 @@
             </p>
             <span class="fs-4 text-dark">Why People Choose This Services</span>
             <p>Customers usually look for a service that feels simple and reliable. They don’t want complicated
-                processes or unclear communication. Agarwal Movers and Packers enjoys a strong reputation because they
+                processes or unclear communication. <?= $companyname ?> enjoys a strong reputation because they
                 have a very simple, straightforward, and transparent method of completing each move. Each item to be
                 moved is packed properly, transported carefully, and remains clearly tracked from the time of packing
                 until the completion of the move.</p>
@@ -475,7 +475,7 @@
             <span class="fs-4">Conclusion</span>
 
             <p>While transfer procedures may not come naturally, they can certainly be made simpler when they follow a
-                proper process. The emphasis of <b>Agarwal Packers and Movers</b> is on getting the job done well,
+                proper process. The emphasis of <b><?= $companyname ?></b> is on getting the job done well,
                 rather than making it appear to be more complex than it needs to be.
             </p>
 
@@ -485,3 +485,4 @@
         </div>
     </div>
 </section>
+

@@ -36,7 +36,7 @@
             <div class="col-md-6">
                 <div class="about-img">
                     <img src="<?= base_url('assets/images/home/home_relocation.jpg'); ?>"
-                        alt="Agarwal Packers and Movers team providing relocation services"
+                        alt="<?= $companyname ?> team providing relocation services"
                         class="img-fluid rounded-4 w-100">
                 </div>
             </div>
@@ -48,11 +48,11 @@
 
 
                 <h2 class="fw-bold fs-2 mb-3">
-                    Luggage Delivery Services – Agarwal Packers and Movers
+                    Luggage Delivery Services – <?= $companyname ?>
                 </h2>
 
                 <p class="text-muted mb-2">
-                    Travel becomes easier when you don’t have to drag every bag with you. Extra suitcases, cartons, or seasonal items can turn a simple trip into a tiring one. That’s why many people now choose to send their belongings separately. <strong>Agarwal Packers and Movers</strong> offers luggage delivery services that let you move comfortably while your items are handled on a different track.
+                    Travel becomes easier when you don’t have to drag every bag with you. Extra suitcases, cartons, or seasonal items can turn a simple trip into a tiring one. That’s why many people now choose to send their belongings separately. <strong><?= $companyname ?></strong> offers luggage delivery services that let you move comfortably while your items are handled on a different track.
                 </p>
                 <p>If you’ve searched <b>luggage delivery services near me</b>, you’re likely looking for a no-fuss option, pickup from your place and drop at the destination, without chasing updates. That’s the idea here: keep it clear, keep it steady.</p>
 
@@ -103,7 +103,7 @@
             </h3>
 
             <p>
-                There isn’t a single pattern for luggage. One person may have two bags; another may have several cartons. Agarwal Packers and Movers plans luggage delivery services based on what you actually have, not on a fixed template.
+                There isn’t a single pattern for luggage. One person may have two bags; another may have several cartons. <?= $companyname ?> plans luggage delivery services based on what you actually have, not on a fixed template.
             </p>
 
             <p>
@@ -111,7 +111,7 @@
 
             </p>
             <span class="fs-4 fw-semibold">How It Moves From Pickup to Delivery</span>
-            <p>The start is straightforward, sharing the number of bags, pickup point, and destination. Agarwal Packers and Movers maps out the movement after that.</p>
+            <p>The start is straightforward, sharing the number of bags, pickup point, and destination. <?= $companyname ?> maps out the movement after that.</p>
             <p>If any item needs extra securing, it’s done before dispatch. Some bags are already packed well; others may need an added layer of protection. Once ready, pickup is arranged and the luggage moves along the planned route.</p>
             <p>During transit, the focus is on stable handling rather than speed. At the destination, delivery is completed in a normal, expected manner.</p>
         </div>
@@ -124,16 +124,17 @@
             <p class="mb-0">
                 Luggage delivery doesn’t always run on a perfect clock. Distance, route changes, and timing windows can influence how the trip unfolds.
             </p>
-            <p class="text-muted"><em>Agarwal Packers and Movers</em> works with these day-to-day variables. The approach stays steady so your belongings reach safely, even if small timing shifts happen.</p>
+            <p class="text-muted"><em><?= $companyname ?></em> works with these day-to-day variables. The approach stays steady so your belongings reach safely, even if small timing shifts happen.</p>
             
             <span class="fs-5 fw-semibold">Short Runs and Longer Routes</span>
             <p>Both nearby drops and longer routes are covered. Short runs are usually quicker to complete, while longer routes are planned with a bit more care so things don’t go off track.</p>
             <p class="text-muted">For anyone searching luggage delivery services near me, having a service that adapts to these differences makes the whole experience smoother.</p>
-            <span class="fs-5 fw-semibold">Agarwal Packers and Movers for Simple Luggage Delivery</span>
-            <p>If you need the <b>best luggage delivery services</b> without a complicated process, Agarwal Packers and Movers offers a clear path.</p>
+            <span class="fs-5 fw-semibold"><?= $companyname ?> for Simple Luggage Delivery</span>
+            <p>If you need the <b>best luggage delivery services</b> without a complicated process, <?= $companyname ?> offers a clear path.</p>
             <p>Share your details, understand how the movement will happen, and proceed without guesswork. The aim is simple, your luggage reaches safely while you travel light.</p>
         </div>
 
 
     </div>
 </section>
+

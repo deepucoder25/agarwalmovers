@@ -3,14 +3,14 @@
         <div class="row align-items-center">
             <!-- Phone Icon -->
             <div class="col-lg-1 col-2 text-center mt-3 position-relative">
-                <a href="<?=$phone?>" aria-label="Phone-number">
+                <a href="<?=$phonehtml?>" aria-label="Phone-number">
                     <i class="fa-solid fa-phone phone-mar"></i>
                 </a>
             </div>
 
             <!-- Phone Number -->
             <div class="col-lg-3 col-8 mt-3 phone-num text-lg-start text-center">
-                <a href="<?=$phone?>" class="text-white text-decoration-none">
+                <a href="<?=$phonehtml?>" class="text-white text-decoration-none">
                     <p class="h5 mb-0 fw-bold"><?=$phone?></p>
                 </a>
                 <p class="small mb-0">Shifting House & Vehicle</p>

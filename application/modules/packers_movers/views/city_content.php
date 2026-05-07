@@ -25,11 +25,11 @@ if (strtolower($city) == "") {
    ";
 } else {
    $htmlcontent = "<h2 class='fw-bold fs-2 mb-3'>
-                    Packers and Movers in $city - Simple Moving Support by Agarwal Packers and Movers
+                    Packers and Movers in $city - Simple Moving Support by $companyname
                 </h2>
 
                 <p class='text-muted mb-4'>
-                    Finding reliable <b>packers and movers in $city</b> is usually the first concern when planning a shift. At <strong>Agarwal Packers and Movers</strong>, the idea is not to make big claims, but to handle the move in a way that actually works in real situations. We’ve been doing this for years, helping people shift homes, relocate offices, and move vehicles without making the process complicated.
+                    Finding reliable <b>packers and movers in $city</b> is usually the first concern when planning a shift. At <strong>$companyname</strong>, the idea is not to make big claims, but to handle the move in a way that actually works in real situations. We’ve been doing this for years, helping people shift homes, relocate offices, and move vehicles without making the process complicated.
                 </p>
    
    ";
@@ -81,6 +81,6 @@ if (strtolower($city) == "") {
                 Services are available across different parts of $city and nearby areas. Whether it’s a local move or shifting to another city, the approach remains the same, keep it simple and handle it properly.
             </p>
             <span class='fs-6 fw-bold mb-3 mt-3'>Are you searching for a packer and mover in $city nearby? </span>
-            <p>Contact Agarwal Packers & Movers ($phone) to find out how to proceed or how to arrange your moving service along with pricing. You get exactly what you ask for, it really is that simple.</p>
+            <p>Contact $companyname ($phone) to find out how to proceed or how to arrange your moving service along with pricing. You get exactly what you ask for, it really is that simple.</p>
    ";
 }

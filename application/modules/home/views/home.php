@@ -29,7 +29,7 @@
             <div class="col-md-6">
                 <div class="about-img">
                     <img src="<?= base_url('assets/images/home/Loading_Unloading.jpg'); ?>"
-                        alt="Agarwal Packers and Movers team providing relocation services"
+                        alt="<?= $companyname ?> team providing relocation services"
                         loading="lazy" class="img-fluid rounded-4 w-100">
                 </div>
             </div>
@@ -42,11 +42,11 @@
 
 
                 <h2 class="fw-bold fs-2 mb-3">
-                    Agarwal Packers and Movers – Trusted Packing and Moving Services
+                    <?= $companyname ?> – Trusted Packing and Moving Services
                 </h2>
 
                 <p class="text-muted mb-4">
-                    Welcome to <strong>Agarwal Packers and Movers</strong>, a company built on years of real moving experience and customer trust. We provide <b>reliable packing and moving services</b> for homes, offices, and vehicles and many more. Over the years, we handle every item carefully and complete each move stress, as our focus has always remained the same.
+                    Welcome to <strong><?= $companyname ?></strong>, a company built on years of real moving experience and customer trust. We provide <b>reliable packing and moving services</b> for homes, offices, and vehicles and many more. Over the years, we handle every item carefully and complete each move stress, as our focus has always remained the same.
                 </p>
 
                 <div class="row mt-4">
@@ -167,7 +167,7 @@ $this->load->view('home/service_widget.php', $data);
             </h4>
 
             <p class="mb-0">
-               <em>Agarwal Packers and Movers</em> provides <b>packing and moving services</b> including home shifting, office relocation, vehicle transport, and complete relocation support. Our goal is to offer safe and dependable service for every type of move.
+               <em><?= $companyname ?></em> provides <b>packing and moving services</b> including home shifting, office relocation, vehicle transport, and complete relocation support. Our goal is to offer safe and dependable service for every type of move.
             </p>
 
 

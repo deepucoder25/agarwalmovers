@@ -32,7 +32,7 @@ class Contacts_mdl extends CI_Model
         $this->db->insert('contacts', array("name" => $name, "email" => $mfrom, "mfrom" => $email, "phone" => $phn, "message" => $msg, "category" => $category));
         $message = "<div style='padding:30px;background: #e6e6e6;font-size: 18px !important;'>Client's Query: <h3>$category</h3><b><q>$msg</q></b><br><br>Client's Name:  <b>$name</b><br><br>Phone Number:  <b>$phn</b><b>$mfrom</b><br><br> Email: <b> $email</b></div>";
 
-        $this->email->to('arshadktr9@gmail.com');
+        $this->email->to($this->comp['adminmail']);
         $this->email->from("$this->comp['supportmail']");
         if (@$email)
             $this->email->reply_to(@$email);
@@ -71,7 +71,7 @@ public function bookings()
     $msgd = "Services Needed";
     $adminMessage = "<div style='padding:30px;background:#e6e6e6;font-size: 18px !important;'>Client's Query: <b><q>$msgd</q></b><br><br>Client's Name:  <b>$name</b><br><br>From: <b>$mfrom</b><br><br>To: <b>$mto</b><br><br>Phone Number: <b><a href='tel:$phone'>$phone</a></b><br><br>Email: <b> $email</b><br><br>Client Msg: <b>$msg</b></div>";
 
-    $this->email->to('arshadktr9@gmail.com');
+    $this->email->to($this->comp['adminmail']);
     $this->email->from("$this->comp['supportmail']");
     if (@$email) {
         $this->email->reply_to(@$email);
@@ -81,7 +81,7 @@ public function bookings()
     $this->email->send();
 
     // Send reply email to the client
-    $clientMessage = "<div style='padding:30px;background:#e6e6e6;font-size: 18px !important;'>Dear <b>$name</b>,<br><br>Thank you for reaching out to us regarding your booking from <b>$mfrom</b> to <b>$mto</b>. We have received your inquiry and will get back to you shortly to confirm the details.<br><br>If you have any further questions, please feel free to contact us.<br><br>Best regards,<br>.$this->comp['company3']<br><br><b>Email:</b> $this->comp['supportmail']<br><b>Phone:</b>  <a href='$this->comp['phonehtml']'>$this->comp['phone']</a></div>";
+    $clientMessage = "<div style='padding:30px;background:#e6e6e6;font-size: 18px !important;'>Dear <b>$name</b>,<br><br>Thank you for reaching out to us regarding your booking from <b>$mfrom</b> to <b>$mto</b>. We have received your inquiry and will get back to you shortly to confirm the details.<br><br>If you have any further questions, please feel free to contact us.<br><br>Best regards,<br>{$this->comp['company3']}<br><br><b>Email:</b> {$this->comp['mail']}<br><b>Phone:</b> <a href='{$this->comp['phonehtml']}'>{$this->comp['phone']}</a></div>";
 
     $this->email->clear(); 
     $this->email->to($email); 
@@ -117,7 +117,7 @@ public function bookings()
         $qry = $this->input->post('message');
         $this->db->insert('contacts', array("name"=>$name,"phone"=>$phone,"message"=>$qry,"email" => $email));
         $message = "<div style='padding:30px;background:#e6e6e6;font-size: 18px !important;'>Client's Query: <b><q>$qry</q></b><br><br>Client's Name:  <b>$name</b><br><br>Phone Number: <b><a href='tel:$phone'>$phone</a></b><br><br>Email: <b> $email</b></div>";
-        $this->email->to('arshadktr9@gmail.com');
+        $this->email->to($this->comp['adminmail']);
         $this->email->from("$this->comp['supportmail']");
         if (@$email)
             $this->email->reply_to(@$email);

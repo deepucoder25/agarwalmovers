@@ -39,11 +39,11 @@
 
 
         <h1 class="fw-bold mt-3">
-            Agarwal Packers And Movers In India
+            <?= $companyname ?> In India
         </h1>
 
         <p class="mt-3">
-            Agarwal Packers and Movers offers reliable home shifting, office relocation, and vehicle transportation
+            <?= $companyname ?> offers reliable home shifting, office relocation, and vehicle transportation
             services across India.Our experienced team ensures safe packing, secure handling, and timely delivery, making your move smooth,
             efficient, and completely stress-free.
         </p>

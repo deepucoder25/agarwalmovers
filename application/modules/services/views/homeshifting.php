@@ -36,7 +36,7 @@
             <div class="col-md-6">
                 <div class="about-img">
                     <img src="<?= base_url('assets/images/service/service-img-1.webp'); ?>"
-                        alt="Agarwal Packers and Movers team providing relocation services"
+                        alt="<?= $companyname ?> team providing relocation services"
                         class="img-fluid rounded-4 w-100">
                 </div>
             </div>
@@ -48,13 +48,13 @@
 
 
                 <h2 class="fw-bold fs-2 mb-3">
-                    Top Home Shifting Services – Agarwal Packers and Movers
+                    Top Home Shifting Services – <?= $companyname ?>
                 </h2>
 
                 <p class="text-muted mb-2">
-                    Shifting a home sounds simple, but once you start, it becomes a mix of small and big tasks. Packing daily items, handling furniture, arranging transport, and setting things up again at a new place, all of this needs proper handling. <strong>Agarwal Packers and Movers</strong> manages home shifting services in a way that feels natural and easy to follow, without making the process confusing.
+                    Shifting a home sounds simple, but once you start, it becomes a mix of small and big tasks. Packing daily items, handling furniture, arranging transport, and setting things up again at a new place, all of this needs proper handling. <strong><?= $companyname ?></strong> manages home shifting services in a way that feels natural and easy to follow, without making the process confusing.
                 </p>
-                <p>When people look for <b>home shifting services near me</b>, they usually want a service that actually works in real situations. Agarwal Packers and Movers focuses on that basic need, understand the situation first, then carry out the move step by step.</p>
+                <p>When people look for <b>home shifting services near me</b>, they usually want a service that actually works in real situations. <?= $companyname ?> focuses on that basic need, understand the situation first, then carry out the move step by step.</p>
 
                 <div class="row mt-4">
 
@@ -103,14 +103,14 @@
             </h3>
 
             <p>
-                Not every house move needs the same level of work. Some homes have limited items, while others have full setups. Agarwal Packers and Movers offers cheap home shifting services by keeping the plan flexible.
+                Not every house move needs the same level of work. Some homes have limited items, while others have full setups. <?= $companyname ?> offers cheap home shifting services by keeping the plan flexible.
             </p>
 
             <p>
                Instead of following a fixed pattern, the work is adjusted based on what is actually required. Because of this, many people see it as one of the best home shifting services, especially when they want something simple and manageable.
             </p>
             <span class="fs-4 fw-semibold">How the Shifting Work Is Done</span>
-            <p>The work usually starts with a basic understanding of your items and location. Agarwal Packers and Movers checks what kind of goods are involved and what type of access is available at both places.</p>
+            <p>The work usually starts with a basic understanding of your items and location. <?= $companyname ?> checks what kind of goods are involved and what type of access is available at both places.</p>
             <p>Some homes are easy to access, while others may have tight entry points or limited space. These things are considered before starting. Packing is handled in a practical way, breakable items are given extra care, while regular items are packed in a straightforward manner.</p>
             <p>After packing, items are lifted, arranged, and transported. At the new location, unloading is done calmly, and items are placed where you need them.</p>
         </div>
@@ -121,15 +121,16 @@
             </h4>
 
             <p class="mb-0">
-                <em>Agarwal Packers and Movers</em> handles shifting work regularly, so the team is familiar with common issues that come up during relocation.
+                <em><?= $companyname ?></em> handles shifting work regularly, so the team is familiar with common issues that come up during relocation.
             </p>
             <p>For example, moving on a weekday can sometimes save time compared to weekends. Smaller homes usually take less time to shift, while larger homes need more coordination. These are simple, real observations that make planning easier.</p>
             <span class="fs-5 fw-semibold">Nearby and Long Distance Shifting</span>
-            <p>Agarwal Packers and Movers supports both short-distance and long-distance moves. Local shifting is generally quicker since everything is within reach. Long-distance moves are handled with a bit more planning to keep things organized. People searching for home shifting services near me often prefer a team that understands how shifting actually works, and that is where practical experience becomes useful.</p>
-            <span class="fs-5 fw-semibold">Agarwal Packers and Movers for Simple Home Shifting</span>
-            <p>If you are trying to find best home shifting services or looking for <b>cheap home shifting services, Agarwal Packers and Movers</b> offers a straightforward option. You can share your requirements, understand the process, and move ahead without confusion. The goal is simple, to complete your home shifting in a way that feels easy to manage from beginning to end.</p>
+            <p><?= $companyname ?> supports both short-distance and long-distance moves. Local shifting is generally quicker since everything is within reach. Long-distance moves are handled with a bit more planning to keep things organized. People searching for home shifting services near me often prefer a team that understands how shifting actually works, and that is where practical experience becomes useful.</p>
+            <span class="fs-5 fw-semibold"><?= $companyname ?> for Simple Home Shifting</span>
+            <p>If you are trying to find best home shifting services or looking for <b>cheap home shifting services, <?= $companyname ?></b> offers a straightforward option. You can share your requirements, understand the process, and move ahead without confusion. The goal is simple, to complete your home shifting in a way that feels easy to manage from beginning to end.</p>
         </div>
 
 
     </div>
 </section>
+

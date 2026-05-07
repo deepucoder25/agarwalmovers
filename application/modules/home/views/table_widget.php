@@ -8,7 +8,7 @@
                 </div>
                 <span class="display-6 fs-3 fw-bold mb-3">Estimated Moving Charges</span>
                 <p class="text-muted fs-6 mb-0">
-                    Agarwal Packers and Movers provides affordable and transparent pricing.
+                    <?= $companyname ?> provides affordable and transparent pricing.
                     Below are approximate charges based on shifting type and distance.
                 </p>
             </div>

@@ -36,7 +36,7 @@
             <div class="col-md-6">
                 <div class="about-img">
                     <img src="<?= base_url('assets/images/home/home_relocation.jpg'); ?>"
-                        alt="Agarwal Packers and Movers team providing relocation services"
+                        alt="<?= $companyname ?> team providing relocation services"
                         class="img-fluid rounded-4 w-100">
                 </div>
             </div>
@@ -48,13 +48,13 @@
 
 
                 <h2 class="fw-bold fs-2 mb-3">
-                    Best Office Shifting Services – Agarwal Packers and Movers
+                    Best Office Shifting Services – <?= $companyname ?>
                 </h2>
 
                 <p class="text-muted mb-2">
-                    Office shifting often starts suddenly, one decision, and everything has to move. Tables, systems, files, small items from drawers, all of it adds up faster than expected. Work still needs to continue, so the move has to be handled without creating chaos. <strong>Agarwal Packers and Movers</strong> manages office shifting services in a way that keeps things under control while the shift is happening.
+                    Office shifting often starts suddenly, one decision, and everything has to move. Tables, systems, files, small items from drawers, all of it adds up faster than expected. Work still needs to continue, so the move has to be handled without creating chaos. <strong><?= $companyname ?></strong> manages office shifting services in a way that keeps things under control while the shift is happening.
                 </p>
-                <p>When someone searches for <b>office shifting services near me</b>, they are usually thinking about time and safety. How fast can it be done, and will everything stay in order? Agarwal Packers and Movers works with these exact concerns in mind.</p>
+                <p>When someone searches for <b>office shifting services near me</b>, they are usually thinking about time and safety. How fast can it be done, and will everything stay in order? <?= $companyname ?> works with these exact concerns in mind.</p>
 
                 <div class="row mt-4">
 
@@ -103,14 +103,14 @@
             </h3>
 
             <p>
-                No two offices are the same. One may have only a few desks, another may have full departments. Agarwal Packers and Movers provides affordable office shifting services by shaping the move around your actual setup.
+                No two offices are the same. One may have only a few desks, another may have full departments. <?= $companyname ?> provides affordable office shifting services by shaping the move around your actual setup.
             </p>
 
             <p>
                There is no fixed template followed. The plan is made after seeing what needs to be shifted. This flexible way of working is why many people see it as one of the best office shifting services for simple and smooth relocation.
             </p>
             <span class="fs-4 fw-semibold">What Happens on the Day of Shifting</span>
-            <p>The move does not begin with lifting items. It starts earlier, with understanding the space and the flow of work. Agarwal Packers and Movers checks how your office is arranged and what needs special attention.</p>
+            <p>The move does not begin with lifting items. It starts earlier, with understanding the space and the flow of work. <?= $companyname ?> checks how your office is arranged and what needs special attention.</p>
             <p>Loose items, files, and systems are handled carefully so they don’t get mixed up. Packing is done in a way that makes unpacking easier later. Entry points, parking space, and movement inside the building are all considered before starting.</p>
             <p>Most offices prefer shifting after working hours or on weekends. Based on that, the timing is adjusted so your daily work is not affected. Once everything is ready, items are moved step by step. Nothing is rushed. At the new place, items are placed where they are needed so the setup can begin without delay.</p>
         </div>
@@ -123,14 +123,16 @@
             <p class="mb-0">
                 Office shifting is rarely perfect. Sometimes lifts are busy, sometimes access is tight, and sometimes things take longer than expected.
             </p>
-            <p><em>Agarwal Packers and Movers</em> are used to these situations. The team works steadily instead of rushing, which helps avoid confusion during the move.</p>
+            <p><em><?= $companyname ?></em> is used to these situations. The team works steadily instead of rushing, which helps avoid confusion during the move.</p>
             <span class="fs-5 fw-semibold">Small Office to Full Setup Relocation</span>
-            <p>Agarwal Packers and Movers handles both small office moves and larger setups. Smaller offices can be shifted in less time, while bigger offices are usually moved in parts so everything stays organized. People searching <b>office shifting services near me</b> often want a service that understands these practical differences.</p>
-            <span class="fs-5 fw-semibold">Agarwal Packers and Movers – Keep Your Work Moving</span>
-            <p>If you are looking for best office shifting services or simple affordable office shifting services, Agarwal Packers and Movers offers a clear and workable option.</p>
+            <p><?= $companyname ?> handles both small office moves and larger setups. Smaller offices can be shifted in less time, while bigger offices are usually moved in parts so everything stays organized. People searching <b>office shifting services near me</b> often want a service that understands these practical differences.</p>
+            <span class="fs-5 fw-semibold"><?= $companyname ?> – Keep Your Work Moving</span>
+            <p>If you are looking for best office shifting services or simple affordable office shifting services, <?= $companyname ?> offers a clear and workable option.</p>
             <p>You can explain your office setup, understand how the move will be done, and proceed without confusion. The focus stays on one thing, moving your office without disturbing your work more than necessary.</p>
         </div>
 
 
     </div>
 </section>
+
+

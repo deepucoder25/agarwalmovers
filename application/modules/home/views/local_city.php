@@ -4,7 +4,7 @@
             <span class="section-label">OUR SERVICES LOCATION</span>
         </div>
         <h2 class="fw-bold city-title mb-2">
-            Agarwal Packers and Movers Services in Major Cities Across India
+            <?= $companyname ?> Services in Major Cities Across India
         </h2>
 
         <p class="city-subtitle mb-4">

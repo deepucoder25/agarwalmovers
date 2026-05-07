@@ -36,7 +36,7 @@
             <div class="col-md-6">
                 <div class="about-img">
                     <img src="<?= base_url('assets/images/home/home_relocation.jpg'); ?>"
-                        alt="Agarwal Packers and Movers team providing relocation services"
+                        alt="<?= $companyname ?> team providing relocation services"
                         class="img-fluid rounded-4 w-100">
                 </div>
             </div>
@@ -48,11 +48,11 @@
 
 
                 <h2 class="fw-bold fs-2 mb-3">
-                    Goods Insurance Services – Agarwal Packers and Movers
+                    Goods Insurance Services – <?= $companyname ?>
                 </h2>
 
                 <p class="text-muted mb-2">
-                    Most moves go as planned. Boxes are packed, items are loaded, and everything reaches the new place. Still, a small doubt often stays in mind, what if something unexpected happens on the way? Not because it always does, but because transport involves distance, handling, and time. <strong>Agarwal Packers and Movers</strong> offers goods insurance services for that exact reason, to keep you covered if things don’t go exactly as expected.
+                    Most moves go as planned. Boxes are packed, items are loaded, and everything reaches the new place. Still, a small doubt often stays in mind, what if something unexpected happens on the way? Not because it always does, but because transport involves distance, handling, and time. <strong><?= $companyname ?></strong> offers goods insurance services for that exact reason, to keep you covered if things don’t go exactly as expected.
                 </p>
                 <p>People searching for <b>goods insurance services near me</b> are usually not looking for technical details. They just want to know one thing, if something goes wrong, is there any support? This is kept simple here.</p>
 
@@ -107,12 +107,12 @@
             </p>
 
             <p>
-              <b>Goods insurance</b> is not about expecting loss. It is more about staying ready. Agarwal Packers and Movers provides goods insurance services so that your items have a backup during the journey.
+              <b>Goods insurance</b> is not about expecting loss. It is more about staying ready. <?= $companyname ?> provides goods insurance services so that your items have a backup during the journey.
 
             </p>
             <span class="fs-4 fw-semibold">How It Is Explained Before the Move</span>
             <p>Before shifting begins, the insurance option is shared in a clear way. There is no pressure to take it, but the details are explained so you can decide.</p>
-            <p>Agarwal Packers and Movers looks at the type of items being moved and suggests a suitable coverage. Once added, the goods remain covered during transit.</p>
+            <p><?= $companyname ?> looks at the type of items being moved and suggests a suitable coverage. Once added, the goods remain covered during transit.</p>
             <p>If any issue happens, the claim process is explained in simple terms so you know what steps to follow.</p>
         </div>
 
@@ -122,7 +122,7 @@
             </h4>
 
             <p class="mb-0">
-                Goods insurance can apply to household items, office equipment, and other things being transported. <em>Agarwal Packers and Movers</em> helps you understand what is included so there is no confusion later.
+                Goods insurance can apply to household items, office equipment, and other things being transported. <em><?= $companyname ?></em> helps you understand what is included so there is no confusion later.
             </p>
             <p>
               Different items may need different attention, so coverage is adjusted based on what is being moved.
@@ -130,12 +130,13 @@
             
             <span class="fs-5 fw-semibold">Real Situations Where It Helps</span>
             <p>Most of the time, everything reaches safely. But there can be situations where delays, handling, or external conditions affect the goods.</p>
-            <p class="text-muted">Agarwal Packers and Movers offers goods insurance services to deal with such cases in a practical way. It gives a sense of balance during the move.</p>
-            <span class="fs-5 fw-semibold">Agarwal Packers and Movers for Goods Insurance</span>
-            <p>If you are planning a move and want an added layer of safety, <b>Agarwal Packers and Movers</b> provides goods insurance services that are easy to understand.</p>
+            <p class="text-muted"><?= $companyname ?> offers goods insurance services to deal with such cases in a practical way. It gives a sense of balance during the move.</p>
+            <span class="fs-5 fw-semibold"><?= $companyname ?> for Goods Insurance</span>
+            <p>If you are planning a move and want an added layer of safety, <b><?= $companyname ?></b> provides goods insurance services that are easy to understand.</p>
             <p>You can discuss your items, choose whether you want coverage, and continue your move with clarity. The idea is simple, along with careful shifting, there is also a backup in place if needed.</p>
         </div>
 
 
     </div>
 </section>
+

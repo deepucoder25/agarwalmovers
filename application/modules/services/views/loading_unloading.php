@@ -36,7 +36,7 @@
             <div class="col-md-6">
                 <div class="about-img">
                     <img src="<?= base_url('assets/images/home/home_relocation.jpg'); ?>"
-                        alt="Agarwal Packers and Movers team providing relocation services"
+                        alt="<?= $companyname ?> team providing relocation services"
                         class="img-fluid rounded-4 w-100">
                 </div>
             </div>
@@ -48,7 +48,7 @@
 
 
                 <h2 class="fw-bold fs-2 mb-3">
-                    Loading and Unloading – Agarwal Packers and Movers
+                    Loading and Unloading – <?= $companyname ?>
                 </h2>
 
                 <p class="text-muted mb-2">
@@ -108,7 +108,7 @@
                 packing is done well.
             </p>
 
-            <p><strong>Agarwal Packers and Movers</strong> keeps the pace steady. The goal is control, not speed.</p>
+            <p><strong><?= $companyname ?></strong> keeps the pace steady. The goal is control, not speed.</p>
             <span class="fs-4 fw-semibold">What Changes the Price</span>
             <p>Costs vary because every move is different. Main factors include:</p>
             <ul>

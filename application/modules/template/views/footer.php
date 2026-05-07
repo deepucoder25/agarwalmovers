@@ -9,8 +9,8 @@
                 </span>
 
                 <p class="fs-6">
-                    Box courier service in Gurugram, Haryana provides Home & Household Shifting,
-                    Office Shifting, Car & Bike Transport, Packing & Unpacking, and safe relocation services.
+                    <?= $companyname ?> provides home shifting, office relocation, vehicle transport,
+                    packing and unpacking, and safe relocation support across <?= $addressRegion ?>, <?= $companystate ?> and nearby areas.
                 </p>
 
                 <div class="d-flex align-items-center gap-3 mt-4">
@@ -79,8 +79,8 @@
                     <div>
                         <span class="fw-semibold fs-6 d-block">Address</span>
                         <span class="fs-6">
-                            Shop 6, Block F, Carterpuri Village,<br>
-                            Sector 23A, Gurugram, Haryana
+                            <?= $address1 ?><br>
+                            <?= $address2 ?>, <?= $addressRegion ?>, <?= $companystate ?> <?= $postalCode ?>
                         </span>
                     </div>
                 </div>

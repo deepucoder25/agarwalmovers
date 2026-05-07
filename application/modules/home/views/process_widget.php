@@ -5,7 +5,7 @@
                 <span class="section-label">How its Work</span>
                 <h2 class="display-6 fw-bold mb-3">Our Simple Moving Process</h2>
                 <p class="text-muted fs-6 mb-0">
-                    Agarwal Packers and Movers follows a step-by-step process
+                    <?= $companyname ?> follows a step-by-step process
                     to make your relocation safe, smooth, and stress-free.
                 </p>
             </div>

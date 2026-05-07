@@ -57,6 +57,7 @@ class MX_Controller
         $this->comp['replyToMail'] = 'info@packersandmovers.in';
         $this->comp['mail'] = 'info@packersandmovers.com';
         $this->comp['mailhtml'] = "mailto:info@packersandmovers.com";
+        $this->comp['adminmail'] = 'arshadktr9@gmail.com';
         $this->comp['companyname'] = 'Agarwal Packers and Movers';
         $this->comp['company3'] = 'Agarwal Packers and Movers';
         $this->comp['company'] = 'Agarwal Packers and Movers';

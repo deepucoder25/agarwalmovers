@@ -36,7 +36,7 @@
             <div class="col-md-6">
                 <div class="about-img">
                     <img src="<?= base_url('assets/images/home/home_relocation.jpg'); ?>"
-                        alt="Agarwal Packers and Movers team providing relocation services"
+                        alt="<?= $companyname ?> team providing relocation services"
                         class="img-fluid rounded-4 w-100">
                 </div>
             </div>
@@ -48,11 +48,11 @@
 
 
                 <h2 class="fw-bold fs-2 mb-3">
-                    Best IBA Approved Transporter – Agarwal Packers and Movers
+                    Best IBA Approved Transporter – <?= $companyname ?>
                 </h2>
 
                 <p class="text-muted mb-2">
-                    An <strong>IBA approved transporter</strong> is a moving service checked and listed by the Indian Banks’ Association. This simply means the company follows a proper system for packing, transport, and billing. <strong>Agarwal Packers and Movers</strong> works within these guidelines, which helps customers who need correct documents for relocation claims.
+                    An <strong>IBA approved transporter</strong> is a moving service checked and listed by the Indian Banks’ Association. This simply means the company follows a proper system for packing, transport, and billing. <strong><?= $companyname ?></strong> works within these guidelines, which helps customers who need correct documents for relocation claims.
                 </p>
 
                 <div class="row mt-4">
@@ -119,7 +119,7 @@
 
         <div class="content-box mb-4">
             <h4 class="fw-bold mb-3">
-                How Agarwal Packers and Movers Handle the Work
+                How <?= $companyname ?> Handles the Work
             </h4>
 
             <p class="mb-0 text-dark">
@@ -220,3 +220,4 @@ $data['faqs'] = [
 
 $this->load->view('home/fags_widget.php', $data);
 ?>
+

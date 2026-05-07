@@ -39,7 +39,7 @@ foreach ($cities as $ct) {
 
         <div class="slider-inner">
             <h1 class="fw-bold mb-2">
-                Agarwal Packers and Movers in <span class="text-warning"><?= $city ?></span>
+                <?= $companyname ?> in <span class="text-warning"><?= $city ?></span>
             </h1>
 
             <p class="mb-3">
@@ -105,7 +105,7 @@ foreach ($cities as $ct) {
             <div class="col-md-6">
                 <div class="about-img">
                     <img src="<?= base_url('assets/images/about/about-safe.webp'); ?>"
-                        alt="Agarwal Packers and Movers team providing relocation services" loading="lazy"
+                        alt="<?= $companyname ?> team providing relocation services" loading="lazy"
                         class="img-fluid rounded-4 w-100">
                 </div>
             </div>

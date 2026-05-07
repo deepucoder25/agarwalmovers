@@ -6,7 +6,7 @@
 
             <!-- LEFT -->
             <div class="top-left">
-                <a href="#">Agarwal Packers and Movers</a>
+                <a href="<?= site_url() ?>"><?= $companyname ?></a>
                 <span class="divider"></span>
                 <a href="<?= site_url('branches')?>">Our Network</a>
                 <span class="divider"></span>
@@ -35,8 +35,8 @@
 <nav class="navbar navbar-expand-lg main-navbar">
     <div class="container">
 
-        <a class="navbar-brand" href="<?= site_url() ?>" aria-label="Agarwal Packers and Movers home">
-            <img src="<?= base_url('assets/images/logo/logo.png') ?>" alt="Agarwal Packers and Movers logo" class="site-logo">
+        <a class="navbar-brand" href="<?= site_url() ?>" aria-label="<?= $companyname ?> home">
+            <img src="<?= base_url('assets/images/logo/logo.png') ?>" alt="<?= $companyname ?> logo" class="site-logo">
         </a>
 
         <button class="navbar-toggler border-0 ms-2" type="button" id="menuToggle" aria-label="Menu">
@@ -96,7 +96,7 @@
 <div class="mobile-menu-overlay" id="mobileMenu">
 
     <div class="menu-header d-flex justify-content-between align-items-center">
-        <h4 class="mb-0 text-dark ms-2">Agarwal Packers and Movers</h4>
+        <h4 class="mb-0 text-dark ms-2"><?= $companyname ?></h4>
         <span class="close-btn btn-dark" id="closeMenu">&times;</span>
     </div>
 
