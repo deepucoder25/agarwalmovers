@@ -55,13 +55,13 @@ class MX_Controller
         $this->comp['phonehtml'] = 'tel:+91 9667199117';
         $this->comp['supportmail'] = 'support@packersandmovers.in';
         $this->comp['replyToMail'] = 'info@packersandmovers.in';
-        $this->comp['mail'] = 'info@packersandmovers.com';
-        $this->comp['mailhtml'] = "mailto:info@packersandmovers.com";
-        $this->comp['adminmail'] = 'arshadktr9@gmail.com';
+        $this->comp['mail'] = 'info@agarwalpackersindia.org';
+        $this->comp['mailhtml'] = "mailto:info@agarwalpackersindia.org";
+        $this->comp['adminmail'] = 'info@agarwalpackersindia.org';
         $this->comp['companyname'] = 'Agarwal Packers and Movers';
         $this->comp['company3'] = 'Agarwal Packers and Movers';
         $this->comp['company'] = 'Agarwal Packers and Movers';
-        $this->comp['companydomain'] = 'groveus.com';
+        $this->comp['companydomain'] = 'agarwalpackersindia.org';
 
         $this->comp['facebookhtml'] = "";
         $this->comp['youtubehtml'] = "";
@@ -70,16 +70,16 @@ class MX_Controller
         $this->comp['linkedinhtml'] = "";
         $this->comp['whatsapphtml'] = "";
 
-        $this->comp['address'] = "1st floor Road No 1 Near Bank of India Ramkrishna Nagar Patna (800027)";
-        $this->comp['address1'] = "1st floor Road No 1 Near Bank of India";
-        $this->comp['address2'] = "Ramkrishna Nagar Patna";
-        $this->comp['addressRegion'] = "Patna";
-        $this->comp['postalCode'] = "800027";
-        $this->comp['companystate'] = "Bihar";
+        $this->comp['address'] = "";
+        $this->comp['address1'] = "";
+        $this->comp['address2'] = "";
+        $this->comp['addressRegion'] = "";
+        $this->comp['postalCode'] = "";
+        $this->comp['companystate'] = "";
         $this->comp['themeColor'] = "#e21b22";
 
         $this->comp['sku'] = "PM281050";
-        $this->comp['mpn'] = "JPM281050";
+        $this->comp['mpn'] = "APM281050";
         // Review
         $this->comp['ratingValue'] = "4.8";
         $this->comp['ratingCount'] = "2889";
