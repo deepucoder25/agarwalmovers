@@ -49,7 +49,7 @@
                     <div class="col-6 mb-4">
                         <div class="why-box">
                             <i class="bi bi-cash-coin"></i>
-                            <h6>Competitive Pricing</h6>
+                            <h4>Competitive Pricing</h4>
                             <p>Affordable pricing with no hidden charges.</p>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                     <div class="col-6 mb-4">
                         <div class="why-box">
                             <i class="bi bi-credit-card"></i>
-                            <h6>Easy Financing</h6>
+                            <h4>Easy Financing</h4>
                             <p>Flexible payment options available.</p>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                     <div class="col-6 mb-4">
                         <div class="why-box">
                             <i class="bi bi-award"></i>
-                            <h6>Certified Experts</h6>
+                            <h4>Certified Experts</h4>
                             <p>Trained professionals for safe handling.</p>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                     <div class="col-6 mb-4">
                         <div class="why-box">
                             <i class="bi bi-emoji-smile"></i>
-                            <h6>100% Satisfaction</h6>
+                            <h4>100% Satisfaction</h4>
                             <p>Customer satisfaction is our top priority.</p>
                         </div>
                     </div>

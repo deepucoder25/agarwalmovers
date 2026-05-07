@@ -29,7 +29,7 @@
             <div class="col-md-6">
                 <div class="about-img">
                     <img src="<?= base_url('assets/images/home/Loading_Unloading.jpg'); ?>"
-                        alt="<?= $companyname ?> team providing relocation services"
+                        alt="<?= $companyname ?> professional team performing loading and unloading services"
                         loading="lazy" class="img-fluid rounded-4 w-100">
                 </div>
             </div>
@@ -147,9 +147,9 @@ $this->load->view('home/service_widget.php', $data);
     <div class="container py-4">
 
         <div class="content-box mb-4">
-            <h4 class="fw-bold mb-3">
+            <h3 class="fw-bold mb-3">
                 How We Handle Your Move
-            </h4>
+            </h3>
 
             <p>
                 When you get in touch with us, we begin by understanding your specific requirements. Based on that, we clearly explain the process and provide an estimated cost.
@@ -162,9 +162,9 @@ $this->load->view('home/service_widget.php', $data);
             <p>
                Our aim is to keep the entire process simple and clear, so you don’t have to deal with confusion during the move.
             </p>
-            <h4 class="fw-bold mb-3">
+            <h3 class="fw-bold mb-3">
                 About Our Service Location
-            </h4>
+            </h3>
 
             <p class="mb-0">
                <em><?= $companyname ?></em> provides <b>packing and moving services</b> including home shifting, office relocation, vehicle transport, and complete relocation support. Our goal is to offer safe and dependable service for every type of move.

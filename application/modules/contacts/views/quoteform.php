@@ -5,28 +5,28 @@
             <div class="col-lg-2 col-md-6">
                 <div class="form-group">
                     <span class="form-icon"><i class="bi bi-person-fill"></i></span>
-                    <input type="text" class="form-control quote-input" name="name" placeholder="Full Name">
+                    <input type="text" class="form-control quote-input" name="name" placeholder="Full Name" aria-label="Full Name">
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6">
                 <div class="form-group">
                     <span class="form-icon"><i class="bi bi-telephone-fill"></i></span>
-                    <input type="tel" class="form-control quote-input" name="phone" placeholder="Phone No.">
+                    <input type="tel" class="form-control quote-input" name="phone" placeholder="Phone No." aria-label="Phone Number">
                 </div>
             </div>
 
             <div class="col-lg-2 col-md-6">
                 <div class="form-group">
                     <span class="form-icon"><i class="bi bi-geo-alt-fill"></i></span>
-                    <input type="text" class="form-control quote-input" name="mfrom" placeholder="Moving From">
+                    <input type="text" class="form-control quote-input" name="mfrom" placeholder="Moving From" aria-label="Moving From">
                 </div>
             </div>
 
             <div class="col-lg-2 col-md-6">
                 <div class="form-group">
                     <span class="form-icon"><i class="bi bi-pin-map-fill"></i></span>
-                    <input type="text" class="form-control quote-input" name="mto" placeholder="Moving To">
+                    <input type="text" class="form-control quote-input" name="mto" placeholder="Moving To" aria-label="Moving To">
                 </div>
             </div>
 

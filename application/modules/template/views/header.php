@@ -145,12 +145,53 @@
     }
   </script>
 
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "<?= site_url() ?>"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "<?= @$city ? $city : 'Services' ?>",
+        "item": "<?= @$url ?>"
+      }]
+    }
+  </script>
+
+  <?php if (isset($faqs) && !empty($faqs)): ?>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        <?php foreach ($faqs as $index => $faq): ?>
+        {
+          "@type": "Question",
+          "name": "<?= htmlspecialchars($faq['question']) ?>",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "<?= htmlspecialchars($faq['answer']) ?>"
+          }
+        }<?= $index < count($faqs) - 1 ? ',' : '' ?>
+        <?php endforeach; ?>
+      ]
+    }
+  </script>
+  <?php endif; ?>
+
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"/>
   <link rel="stylesheet" href="<?=base_url("assets/css/style.css")?>">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+
 
 
 

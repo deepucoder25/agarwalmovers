@@ -26,7 +26,7 @@ foreach ($cities as $ct) {
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="<?= base_url('assets/images/slider/city_slider.jpg') ?>" class="hero-image" alt="city slider" loading="lazy">
+                <img src="<?= base_url('assets/images/slider/city_slider.jpg') ?>" class="hero-image" alt="Trusted packers and movers in <?= $city ?> for safe relocation" loading="lazy">
             </div>
 
         </div>

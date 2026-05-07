@@ -22,7 +22,7 @@
                                     <i class="bi <?= html_escape($service['icon']); ?> service-icon"></i>
                                 </div>
 
-                                <h5 class="service-title"><?= html_escape($service['title']); ?></h5>
+                                <h4 class="service-title"><?= html_escape($service['title']); ?></h4>
 
                                 <p class="service-description">
                                     <?= html_escape($service['description']); ?>

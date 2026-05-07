@@ -5,15 +5,15 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="<?= base_url('assets/images/slider/slider-1.webp') ?>" alt="packers and movers slider1" class="hero-image" loading="lazy">
+                <img src="<?= base_url('assets/images/slider/slider-1.webp') ?>" alt="<?= $companyname ?> providing premium packing and moving services in India" class="hero-image" loading="lazy">
             </div>
 
             <div class="carousel-item">
-                <img src="<?= base_url('assets/images/slider/slider-2.webp') ?>" alt="Packers and Movers slider2 " class="hero-image" loading="lazy">
+                <img src="<?= base_url('assets/images/slider/slider-2.webp') ?>" alt="Safe and secure household shifting with <?= $companyname ?>" class="hero-image" loading="lazy">
             </div>
 
             <div class="carousel-item">
-                <img src="<?= base_url('assets/images/slider/slider-3.webp') ?>" alt="Packers and Movers slider3" class="hero-image" loading="lazy">
+                <img src="<?= base_url('assets/images/slider/slider-3.webp') ?>" alt="Professional office relocation services by <?= $companyname ?>" class="hero-image" loading="lazy">
             </div>
 
         </div>
